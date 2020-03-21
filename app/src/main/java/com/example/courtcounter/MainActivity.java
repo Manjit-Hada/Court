@@ -31,7 +31,31 @@ public class MainActivity extends AppCompatActivity {
         displayScoreForTeamA(teamAScore);
 
     }
+    public void add2ForTeamA(View view) {
+        teamAScore = teamAScore + 2;
+        displayScoreForTeamA(teamAScore);
 
+    }
+    public void add1ForTeamA(View view) {
+        teamAScore = teamAScore + 1;
+        displayScoreForTeamA(teamAScore);
+
+    }
+    public void add3ForTeamB(View view) {
+        teamBScore = teamBScore + 3;
+        displayScoreForTeamB(teamBScore);
+
+    }
+    public void add2ForTeamB(View view) {
+        teamBScore = teamBScore + 2;
+        displayScoreForTeamB(teamBScore);
+
+    }
+    public void add1ForTeamB(View view) {
+        teamBScore = teamBScore + 1;
+        displayScoreForTeamB(teamBScore);
+
+    }
     public void displayScoreForTeamA(int score){
         textViewTeamA.setText(String.valueOf(score));
     }

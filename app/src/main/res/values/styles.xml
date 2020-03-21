@@ -3,8 +3,8 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#800000</item>
-        <item name="colorButtonNormal">#800000</item>
+        <item name="colorPrimary">#254d6b</item>
+        <item name="colorButtonNormal">#254d6b</item>
 
     </style>
 
